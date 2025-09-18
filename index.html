@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Website Challenge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / Logo -->
+    <header>
+        <img src="school_logo.svg" alt="Challenge Logo" class="logo">
+    </header>
+
+    <!-- Notice -->
+    <section class="notice">
+        <h1>Made by &gt;Nisar Z | Year 8</h1>
+        <p>Please be responsible and ensure your website content is appropriate!</p>
+    </section>
+
+    <!-- Description Section -->
+    <section class="description">
+        <h1>Welcome to the Computer Science Website Challenge!</h1>
+        <p>Create a fully working website using HTML, CSS, and JavaScript. Be creative, functional, and original!</p>
+
+        <h2>Rules</h2>
+        <ul>
+            <li>Work individually.</li>
+            <li>No AI-generated HTML/CSS allowed. JS snippets may use AI if needed.</li>
+            <li>Your website must be fully functional — links, buttons, and interactive elements must work.</li>
+            <li>Custom designs are encouraged — make it visually appealing!</li>
+            <li>Optional hosting online (free services like GitHub Pages are fine).</li>
+            <li>Submit your website via the form below before the deadline: <code>Monday 20th October 2025</code></li>
+        </ul>
+
+        <h2>Prize</h2>
+        <p>A custom certificate recognizing your effort and creativity.</p>
+    </section>
+
+    <!-- Registration Form -->
+    <main>
+        <div class="form-container">
+            <h2>Register for the Challenge</h2>
+            <form id="registration-form" action="https://formspree.io/f/xnnbeagw" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder=" " required>
+                    <label for="name">Full Name</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder=" " required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="tutor" name="tutor" placeholder=" ">
+                    <label for="tutor">Tutor Group</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="fit" name="fit" rows="4" placeholder=" " required></textarea>
+                    <label for="fit">Why are you a good fit?</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="url" id="website-link" name="website-link" placeholder=" " required>
+                    <label for="website-link">Website Link</label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
